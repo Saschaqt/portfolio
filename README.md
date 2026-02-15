@@ -23,9 +23,6 @@ Anstatt Stunden mit Boilerplate-Code zu verbringen, wurde dieses Projekt durch p
 
 ---
 
-## 📈 Warum dieses Repo für Recruiter interessant ist
-In einer Welt, in der KI die Softwareentwicklung verändert, zeige ich hier die Fähigkeit, diese Werkzeuge nicht nur zu nutzen, sondern zu meistern. Es geht nicht um die Menge des getippten Codes, sondern um die Qualität und Geschwindigkeit der Problemlösung.
-
 **Interessiert an effizienten Workflows oder KI-Integration?**
 Lass uns vernetzen!
 [LinkedIn](https://www.linkedin.com/in/sascha-quint/) | [Email](mailto:quintsascha03@gmail.com)
