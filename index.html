@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sascha | Portfolio</title>
+    <meta name="description"
+        content="Portfolio von Sascha - Student der Angewandten Informatik, AI Enthusiast & Vibe Coder.">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+    <!-- Placeholder for FontAwesome if user adds one, otherwise using SVGs/CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Analytics Placeholder -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR-GA-ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'YOUR-GA-ID');
+    </script> 
+    -->
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Sascha<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">Über mich</a></li>
+            <li><a href="#timeline">Werdegang</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact" class="btn-primary">Kontakt</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <h2 class="animate-text">Hallo, ich bin <span class="highlight">Sascha</span></h2>
+            <h1>Angewandte Informatik Student & <br><span class="gradient-text">Vibe Coder</span></h1>
+            <p>Ich gestalte digitale Lösungen mit Fokus auf modernen Web-Technologies, KI-Agenten und
+                Workflow-Automatisierung.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">Kontakt aufnehmen</a>
+                <a href="#timeline" class="btn-secondary">Mein Werdegang</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="circle-blur"></div>
+            <img src="hero-image.png" alt="Sascha" class="hero-img">
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Über mich</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Ich bin <strong>21 Jahre alt</strong> und studiere aktuell <strong>Angewandte
+                            Informatik</strong> an der <strong>Hochschule
+                            Worms</strong> (seit März 2024).
+                        Meine Leidenschaft gilt nicht nur dem Code selbst, sondern der Art und Weise, wie wir in Zukunft
+                        Software entwickeln werden – Stichwort "Vibe Coding".
+                    </p>
+                    <p>
+                        Ab August 2026 werde ich meinen Horizont durch ein Auslandssemester an der <strong>Soongsil
+                            University in Südkorea</strong> erweitern.
+                        Technologie ist für mich Werkzeug und Spielplatz zugleich.
+                    </p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>Antigravity</h3>
+                        <p>AI Pair Programming</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>n8n</h3>
+                        <p>Workflow Automation</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>2027</h3>
+                        <p>Voraussichtlicher Abschluss</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">Mein Werdegang</h2>
+            <div class="timeline">
+
+                <!-- Education Item -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Mär 2024 - Sep 2027 (voraussichtlich)</div>
+                    <div class="timeline-content">
+                        <h3>Angewandte Informatik (B.Sc.)</h3>
+                        <h4>Hochschule Worms</h4>
+                        <p>Schwerpunkt Software Engineering und Web Development.</p>
+                    </div>
+                </div>
+
+                <!-- Education Item (Future) -->
+                <div class="timeline-item">
+                    <div class="timeline-dot highlight-dot"></div>
+                    <div class="timeline-date">Aug 2026 - Jan 2027</div>
+                    <div class="timeline-content">
+                        <h3>Auslandssemester</h3>
+                        <h4>Soongsil University, Südkorea</h4>
+                        <p>Interkultureller Austausch und Vertiefung in Computer Science.</p>
+                    </div>
+                </div>
+
+                <!-- Job Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Werkstudent</div>
+                    <div class="timeline-content">
+                        <h3>IT-Support</h3>
+                        <p>Technische Unterstützung und Problemlösung für interne Systeme.</p>
+                    </div>
+                </div>
+
+                <!-- Job Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Tutor</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineering</h3>
+                        <h4>Hochschule Worms</h4>
+                        <p>Unterstützung von Studierenden bei Programmieraufgaben und Verständnisfragen.</p>
+                    </div>
+                </div>
+
+                <!-- Other Jobs aggregated -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Frühere Tätigkeiten</div>
+                    <div class="timeline-content">
+                        <h3>Diverse Erfahrungen</h3>
+                        <ul class="job-list">
+                            <li>Saison-Aushilfe im Schwimmbad (Gastro & Rettungsschwimmer)</li>
+                            <li>Ehrenamtliche Mitarbeit beim Malteser Hilfsdienst</li>
+                            <li>Grünpflege/Gartenarbeit-Aushilfe</li>
+                            <li>Aushilfe im Netto Marken-Discount</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Tech & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Vibe Coding</h3>
+                    <p>Moderne Entwicklung mit AI-Assistants wie Antigravity.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-robot"></i>
+                    <h3>AI Agents</h3>
+                    <p>Erstellung autonomer Agenten und Nutzung von LLMs.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h3>Automation</h3>
+                    <p>Workflow-Optimierung mit n8n und Skripten.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>IT Konzepte</h3>
+                    <p>Fundiertes Wissen aus dem Studium und privaten Projekten.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">Außerhalb der IT</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fa-solid fa-person-swimming"></i></div>
+                    <h3>Schwimmen</h3>
+                    <p>Ehemaliger Leistungsschwimmer - Ausdauer und Disziplin.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fa-solid fa-table-tennis-paddle-ball"></i></div>
+                    <h3>Padel-Tennis</h3>
+                    <p>Teamgeist und schnelle Reaktionen.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                    <h3>Reisen</h3>
+                    <p>Neue Kulturen entdecken und Horizonte erweitern.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Kontakt</h2>
+            <p>Lass uns vernetzen oder über Projekte sprechen!</p>
+            <div class="contact-links">
+                <a href="mailto:quintsascha03@gmail.com" class="contact-btn"><i class="fa-solid fa-envelope"></i>
+                    Email</a>
+                <a href="https://www.linkedin.com/in/sascha-quint/" target="_blank" class="contact-btn"><i
+                        class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/Saschaqt" target="_blank" class="contact-btn"><i
+                        class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy;
+            <script>document.write(new Date().getFullYear())</script> Sascha. Built with Vibe.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
